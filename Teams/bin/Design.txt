@@ -1,0 +1,8 @@
+Create two classes: Team and players
+Inside Team classes(attributes): team name, coaches, number of players,create arraylist players to store player
+Inside Player classes(attributes): player name,height, place of birth, position
+List team method: loop lists of teams and print teams names
+List coaches method: loop teams and get coach's name from arraylist of coaches
+List players in particular team method: loop teams list to check team, if team name in the list is same as the team that the user asked for, display the team players in the current team
+List player in particular team playing particular position: Loop through list of teams, if team name same as the team that user asked for, loop object players (which wrapped inside team object), if player's position same as the position that user asked for, display the players
+Players on any team within height range : loop Arraylist, ask user for height, search height(use if statement)
